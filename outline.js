@@ -12,5 +12,5 @@
 
 
 (function($) {
-    setInterval(() => {$("div.other-replies").css('background-color', '#98E23C');}, 1000);
+    setInterval(() => {$("div.other-replies").css('border', '2px dotted #98E23C');}, 1000);
 })(jQuery.noConflict(true));
